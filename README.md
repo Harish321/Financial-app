@@ -1,7 +1,7 @@
 
 Site live link: https://financial-app-bd.netlify.app/
 
-These site is by vuetify.js framework
+These site is build in vuetify.js framework
 
 
 # my-shop
