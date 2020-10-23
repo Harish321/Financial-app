@@ -1,6 +1,9 @@
 <template>
-  <v-app :style="{ background: $vuetify.theme.themes.light.background }">
-    <v-container>
+  <v-app
+    :style="{ background: $vuetify.theme.themes.light.background }"
+    style="max-height:100vw;"
+  >
+    <v-container style="height:100%;">
       <v-layout row class="ma-4">
         <v-app style="background-color:grey lighten-1:" class="rounded">
           <v-row>
@@ -32,7 +35,7 @@
                     </template>
                   </v-col>
                   <v-col cols="12" md12
-                    ><h1 class="headline mb-2 grey--text">
+                    ><h1 class="heading mb-2 grey--text">
                       Budgets
                     </h1></v-col
                   >
@@ -248,9 +251,9 @@
         </v-app>
       </v-layout>
     </v-container>
-    <p style="color:#000; margin-top:0; text-align:center;">
+    <!-- <p style="color:#000; margin-top:0; text-align:center;">
       Copyright &copy; reserved 2020.
-    </p>
+    </p> -->
   </v-app>
 </template>
 
