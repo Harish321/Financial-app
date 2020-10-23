@@ -3,7 +3,7 @@
     :style="{ background: $vuetify.theme.themes.light.background }"
     style="max-height:100vw;"
   >
-    <v-container style="height:100%;">
+    <v-container style="min-height:100%;">
       <v-layout row class="ma-4">
         <v-app style="background-color:grey lighten-1:" class="rounded">
           <v-row>
